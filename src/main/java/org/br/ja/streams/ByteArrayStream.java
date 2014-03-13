@@ -44,7 +44,6 @@ public class ByteArrayStream {
 
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
 
-        // this is a very inefficient read because each byte is read
         byte[] buffer = new byte[256];
         int counter = 0;
         while(true){
