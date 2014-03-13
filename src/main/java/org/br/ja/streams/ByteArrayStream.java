@@ -9,7 +9,7 @@ import java.io.ByteArrayOutputStream;
  * Date: 3/12/14
  * Time: 7:44 PM
  */
-public class Streams {
+public class ByteArrayStream {
     // Simple example of playing with stream
     public static void main(String[] args) {
         inefficentRead();
