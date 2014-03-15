@@ -33,11 +33,11 @@ public class StringReverser {
         return uglyReverse(toReverse, sb, index);
     }
 
-    public static String eloquentReverse(String str) {
-        if ((null == str) || (str.length()  <= 1)) {
-            return str;
+    public static String eloquentReverse(String toReverse) {
+        if ((null == toReverse) || (toReverse.length()  <= 1)) {
+            return toReverse;
         }
-        return eloquentReverse(str.substring(1)) + str.charAt(0);
+        return eloquentReverse(toReverse.substring(1)) + toReverse.charAt(0);
     }
 
     public static String loopReverse(String toReverse){
