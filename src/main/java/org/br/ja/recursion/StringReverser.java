@@ -10,15 +10,15 @@ public class StringReverser {
     public static void main(String[] args) {
 
         // uglyReverse
-        String hello = "bryan";
-        System.out.println(uglyReverse(hello, new StringBuilder(), hello.length() - 1));
+        String value = "bryan";
+        System.out.println(uglyReverse(value, new StringBuilder(), value.length() - 1));
 
         // eloquentReverse
-        System.out.println(eloquentReverse(hello));
+        System.out.println(eloquentReverse(value));
 
 
         // loopReverse
-        System.out.println(loopReverse(hello));
+        System.out.println(loopReverse(value));
 
 
     }
