@@ -34,7 +34,7 @@ public class StringReverser {
     }
 
     public static String eloquentReverse(String toReverse) {
-        if ((null == toReverse) || (toReverse.length()  <= 1)) {
+        if (toReverse == null  || toReverse.length()  <= 1) {
             return toReverse;
         }
         return eloquentReverse(toReverse.substring(1)) + toReverse.charAt(0);
